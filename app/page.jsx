@@ -81,22 +81,22 @@ export default function Home() {
             </p>
           </div>
           <div className="gallery-grid">
-        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-1">
+        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-1 motion-reveal">
           <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80&auto=format&fit=crop" alt="Osaka Restaurante | Centro Comercial de Alphaville (CCA) — foto 1" loading="lazy" />
         </div>
-        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-2">
+        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-2 motion-reveal">
           <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80&auto=format&fit=crop" alt="Osaka Restaurante | Centro Comercial de Alphaville (CCA) — foto 2" loading="lazy" />
         </div>
-        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-3">
+        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-3 motion-reveal">
           <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80&auto=format&fit=crop" alt="Osaka Restaurante | Centro Comercial de Alphaville (CCA) — foto 3" loading="lazy" />
         </div>
-        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-1">
+        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-1 motion-reveal">
           <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80&auto=format&fit=crop" alt="Osaka Restaurante | Centro Comercial de Alphaville (CCA) — foto 4" loading="lazy" />
         </div>
-        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-2">
+        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-2 motion-reveal">
           <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80&auto=format&fit=crop" alt="Osaka Restaurante | Centro Comercial de Alphaville (CCA) — foto 5" loading="lazy" />
         </div>
-        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-3">
+        <div className="gallery-item cinematic-frame reveal motion-reveal reveal-delay-3 motion-reveal">
           <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&q=80&auto=format&fit=crop" alt="Osaka Restaurante | Centro Comercial de Alphaville (CCA) — foto 6" loading="lazy" />
         </div>
           </div>
@@ -114,15 +114,25 @@ export default function Home() {
             </p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }} className="grid-responsive">
-        <div className="card reveal motion-reveal reveal-delay-1">
+        <div className="card reveal motion-reveal reveal-delay-1 motion-reveal">
           <div className="card-icon">🍽️</div>
           <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#f5ede4', marginBottom: '8px' }}>Restaurante japonês</h3>
           <p style={{ fontSize: '0.875rem', color: '#b09880', lineHeight: 1.7 }}>Restaurante japonês com atendimento direto da Osaka Restaurante | Centro Comercial de Alphaville (CCA). em Barueri</p>
         </div>
-        <div className="card reveal motion-reveal reveal-delay-2">
+        <div className="card reveal motion-reveal reveal-delay-2 motion-reveal">
           <div className="card-icon">🌙</div>
           <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#f5ede4', marginBottom: '8px' }}>sushi</h3>
           <p style={{ fontSize: '0.875rem', color: '#b09880', lineHeight: 1.7 }}>sushi pensado para quem procura sushi em Barueri.</p>
+        </div>
+        <div className="card reveal motion-reveal reveal-delay-3 motion-reveal">
+          <div className="card-icon">🎉</div>
+          <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#f5ede4', marginBottom: '8px' }}>Juliana M.</h3>
+          <p style={{ fontSize: '0.875rem', color: '#b09880', lineHeight: 1.7 }}>Experimente nosso juliana m. — nota 4.6★ no Google. Peça e comprove.</p>
+        </div>
+        <div className="card reveal motion-reveal reveal-delay-1 motion-reveal">
+          <div className="card-icon">🛵</div>
+          <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#f5ede4', marginBottom: '8px' }}>Rafael S.</h3>
+          <p style={{ fontSize: '0.875rem', color: '#b09880', lineHeight: 1.7 }}>Rafael S. preparado com ingredientes frescos e selecionados do dia, tradição em Barueri.</p>
         </div>
           </div>
           <div style={{ textAlign: 'center', marginTop: '48px' }}>
@@ -140,7 +150,7 @@ export default function Home() {
             <p style={{ color: '#b09880', fontSize: '1rem', maxWidth: '460px', margin: '0 auto', lineHeight: 1.7 }}>Avaliações de quem já experimentou.</p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }} className="grid-responsive">
-        <div className="review-card reveal motion-reveal reveal-delay-1">
+        <div className="review-card reveal motion-reveal reveal-delay-1 motion-reveal">
           <div style={{ color: '#e85d2a', fontSize: '1rem', marginBottom: '16px', letterSpacing: '2px' }}>★★★★★</div>
           <p style={{ color: '#b09880', fontSize: '0.95rem', lineHeight: 1.8, marginBottom: '20px', fontStyle: 'italic' }}>"Comida maravilhosa na Osaka Restaurante | Centro Comercial de Alphaville (CCA)! Sabor autêntico, porção generosa e atendimento acolhedor. Melhor em Barueri."</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', borderTop: '1px solid #2e2218', paddingTop: '16px' }}>
@@ -151,7 +161,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="review-card reveal motion-reveal reveal-delay-2">
+        <div className="review-card reveal motion-reveal reveal-delay-2 motion-reveal">
           <div style={{ color: '#e85d2a', fontSize: '1rem', marginBottom: '16px', letterSpacing: '2px' }}>★★★★★</div>
           <p style={{ color: '#b09880', fontSize: '0.95rem', lineHeight: 1.8, marginBottom: '20px', fontStyle: 'italic' }}>"Fomos em família e todos adoraram. Ambiente agradável, comida fresca e preço justo. Voltaremos com certeza."</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', borderTop: '1px solid #2e2218', paddingTop: '16px' }}>
@@ -162,7 +172,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="review-card reveal motion-reveal reveal-delay-3">
+        <div className="review-card reveal motion-reveal reveal-delay-3 motion-reveal">
           <div style={{ color: '#e85d2a', fontSize: '1rem', marginBottom: '16px', letterSpacing: '2px' }}>★★★★★</div>
           <p style={{ color: '#b09880', fontSize: '0.95rem', lineHeight: 1.8, marginBottom: '20px', fontStyle: 'italic' }}>"4.6★ merecidas! Pedi pelo delivery e chegou quentinho e bem embalado. Qualidade nota 10."</p>
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', borderTop: '1px solid #2e2218', paddingTop: '16px' }}>
@@ -228,17 +238,17 @@ export default function Home() {
       <div className="divider-gradient" />
       <section className="story-beat" data-story-beat="stats" style={{ background: '#1e1410', borderBottom: '1px solid #2e2218' }}>
         <div style={{ maxWidth: '1160px', margin: '0 auto', padding: '0 28px', display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0', divideX: '1px solid #2e2218' }}>
-        <div className="stat-card reveal motion-reveal">
+        <div className="stat-card reveal motion-reveal motion-reveal">
           <div style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 900, color: '#e85d2a', lineHeight: 1 }}>12+</div>
           <div style={{ width: '32px', height: '2px', background: '#e85d2a', margin: '12px auto', borderRadius: '2px' }} />
           <div style={{ fontSize: '0.875rem', color: '#b09880' }}>Anos de sabor</div>
         </div>
-        <div className="stat-card reveal motion-reveal">
+        <div className="stat-card reveal motion-reveal motion-reveal">
           <div style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 900, color: '#e85d2a', lineHeight: 1 }}>500+</div>
           <div style={{ width: '32px', height: '2px', background: '#e85d2a', margin: '12px auto', borderRadius: '2px' }} />
           <div style={{ fontSize: '0.875rem', color: '#b09880' }}>Pratos no cardápio</div>
         </div>
-        <div className="stat-card reveal motion-reveal">
+        <div className="stat-card reveal motion-reveal motion-reveal">
           <div style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 900, color: '#e85d2a', lineHeight: 1 }}>4.6★</div>
           <div style={{ width: '32px', height: '2px', background: '#e85d2a', margin: '12px auto', borderRadius: '2px' }} />
           <div style={{ fontSize: '0.875rem', color: '#b09880' }}>Google (4581 avaliações)</div>
@@ -250,7 +260,7 @@ export default function Home() {
       {/* ── SOBRE + IMAGEM ── */}
       <section id="sobre" className="story-beat" data-story-beat="sobre" style={{ padding: '104px 28px' }}>
         <div style={{ maxWidth: '1160px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '72px', alignItems: 'center' }} className="grid-2-responsive">
-          <div className="reveal motion-reveal">
+          <div className="reveal motion-reveal motion-reveal">
             <span className="section-label">Nossa história</span>
             <h2 className="section-title">Sabor com Tradição</h2>
             <p style={{ color: '#b09880', lineHeight: 1.85, fontSize: '1.05rem', marginBottom: '32px' }}>
@@ -284,7 +294,7 @@ export default function Home() {
             </div>
             <a href="https://wa.me/55551146881244?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" className="btn-wa">Fazer Pedido →</a>
           </div>
-          <div className="reveal motion-reveal motion-parallax reveal-delay-2" style={{ position: 'relative' }}>
+          <div className="reveal motion-reveal motion-parallax reveal-delay-2 motion-reveal" style={{ position: 'relative' }}>
             <div className="cinematic-frame" style={{ borderRadius: '24px', overflow: 'hidden', height: '520px', boxShadow: '0 32px 64px #1a100899' }}>
               <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=900&q=80&auto=format&fit=crop" alt="Osaka Restaurante | Centro Comercial de Alphaville (CCA)" style={{ width: '100%', height: '100%', objectFit: 'cover' }} loading="lazy" />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, #1a100888, transparent 60%)' }} />
@@ -308,7 +318,7 @@ export default function Home() {
             <h2 className="section-title">Perguntas Frequentes</h2>
           </div>
           <div>
-        <div className="faq-item reveal motion-reveal reveal-delay-1">
+        <div className="faq-item reveal motion-reveal reveal-delay-1 motion-reveal">
           <button className="faq-question" onClick={(e) => {
             const ans = e.currentTarget.nextElementSibling;
             const icon = e.currentTarget.querySelector('.faq-icon');
@@ -321,7 +331,7 @@ export default function Home() {
           </button>
           <div className="faq-answer" style={{ display: 'none' }}>Temos opções para diversas preferências alimentares. Consulte nosso cardápio atualizado.</div>
         </div>
-        <div className="faq-item reveal motion-reveal reveal-delay-2">
+        <div className="faq-item reveal motion-reveal reveal-delay-2 motion-reveal">
           <button className="faq-question" onClick={(e) => {
             const ans = e.currentTarget.nextElementSibling;
             const icon = e.currentTarget.querySelector('.faq-icon');
@@ -334,7 +344,7 @@ export default function Home() {
           </button>
           <div className="faq-answer" style={{ display: 'none' }}>Nosso horário varia conforme o dia. Confirme pelo WhatsApp para garantir seu atendimento.</div>
         </div>
-        <div className="faq-item reveal motion-reveal reveal-delay-1">
+        <div className="faq-item reveal motion-reveal reveal-delay-1 motion-reveal">
           <button className="faq-question" onClick={(e) => {
             const ans = e.currentTarget.nextElementSibling;
             const icon = e.currentTarget.querySelector('.faq-icon');
@@ -347,7 +357,7 @@ export default function Home() {
           </button>
           <div className="faq-answer" style={{ display: 'none' }}>Sim! Montamos buffet personalizado para festas e eventos. Solicite um orçamento.</div>
         </div>
-        <div className="faq-item reveal motion-reveal reveal-delay-2">
+        <div className="faq-item reveal motion-reveal reveal-delay-2 motion-reveal">
           <button className="faq-question" onClick={(e) => {
             const ans = e.currentTarget.nextElementSibling;
             const icon = e.currentTarget.querySelector('.faq-icon');
@@ -360,7 +370,7 @@ export default function Home() {
           </button>
           <div className="faq-answer" style={{ display: 'none' }}>Aceitamos cartão de crédito/débito, PIX, dinheiro e vale-refeição.</div>
         </div>
-        <div className="faq-item reveal motion-reveal reveal-delay-1">
+        <div className="faq-item reveal motion-reveal reveal-delay-1 motion-reveal">
           <button className="faq-question" onClick={(e) => {
             const ans = e.currentTarget.nextElementSibling;
             const icon = e.currentTarget.querySelector('.faq-icon');

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-21T16:52:40.934Z",
+  "generatedAt": "2026-05-21T17:04:37.939Z",
   "sections": {
     "hero": {
       "headline": "Osaka Restaurante | Centro Comercial de Alphaville (CCA): Ver cardapio e pedir pelo WhatsApp em Barueri",
@@ -9,7 +9,7 @@
       "ctaSecondary": "Ver Cardápio",
       "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80&auto=format&fit=crop",
       "imageSource": "segment-fallback",
-      "source": "name-personality"
+      "source": "existing-project"
     },
     "services": {
       "items": [
@@ -22,9 +22,19 @@
           "name": "sushi",
           "icon": "🌙",
           "desc": "sushi pensado para quem procura sushi em Barueri."
+        },
+        {
+          "name": "Juliana M.",
+          "icon": "🎉",
+          "desc": "Experimente nosso juliana m. — nota 4.6★ no Google. Peça e comprove."
+        },
+        {
+          "name": "Rafael S.",
+          "icon": "🛵",
+          "desc": "Rafael S. preparado com ingredientes frescos e selecionados do dia, tradição em Barueri."
         }
       ],
-      "source": "segment-template"
+      "source": "existing-project"
     },
     "about": {
       "text": "Aqui na Osaka Restaurante | Centro Comercial de Alphaville (CCA), Barueri, cada atendimento é pensado para você. sushi com atenção ao detalhe. Nota 4.6★ no Google — o resultado é o nosso melhor cartão de visita.",

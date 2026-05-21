@@ -2,7 +2,7 @@
   "generationMode": "deep",
   "_generationMeta": {
     "mode": "deep",
-    "timestamp": "2026-05-21T16:52:40.932Z",
+    "timestamp": "2026-05-21T17:04:37.934Z",
     "leadDataQuality": "medium",
     "syntheticEnrichmentUsed": false,
     "aiUsed": false,
@@ -10,13 +10,13 @@
     "aiCalls": 3,
     "aiSuccesses": 0,
     "hero": {
-      "headlineSource": "name-personality",
+      "headlineSource": "existing-project",
       "subheadlineSource": "enriched-specific",
       "aiAttempted": true,
       "aiFallback": true
     },
     "services": {
-      "source": "segment-template",
+      "source": "existing-project",
       "realCategories": 0,
       "aiEnriched": false
     },
@@ -243,9 +243,10 @@
   "applied": {
     "overrides": [
       "palette:warm-appetite",
+      "palette:reused-from-existing",
       "imagery:alimentacao",
       "assets:real(logo)",
-      "ingestion:0-sources()",
+      "ingestion:1-sources(existing-project)",
       "content:alimentacao",
       "site-brief:heroHeadline,subheadline,primaryCta,secondaryCta,services",
       "visual:variety(neutral-clean)",
@@ -254,7 +255,9 @@
       "enriched:lead-specifics",
       "about:ai-fallback→template",
       "faq:segment-pool",
-      "quality-guard:1-rewrites"
+      "hero:real(existing-project)",
+      "services:real(existing-project)",
+      "quality-guard:3-rewrites"
     ],
     "palette": {
       "mode": "warm-appetite",
@@ -331,19 +334,24 @@
         "site": false,
         "instagram": false,
         "maps": false,
-        "existingProjectAssets": false
+        "existingProjectAssets": true
       },
-      "heroSource": "template",
-      "heroImageSource": "segment-fallback",
-      "servicesSource": "template",
+      "heroSource": "existing-project",
+      "heroImageSource": "existing-project",
+      "servicesSource": "existing-project",
       "aboutSource": "template",
       "faqSource": "template",
       "ctaSource": "template",
       "logoSource": "generated-initial",
-      "realFieldsUsed": [],
-      "realFieldCount": 0,
-      "sourceCount": 0,
-      "sources": [],
+      "realFieldsUsed": [
+        "heroHeadline",
+        "services"
+      ],
+      "realFieldCount": 2,
+      "sourceCount": 1,
+      "sources": [
+        "existing-project"
+      ],
       "websiteError": "fetch-failed"
     },
     "cta": {
@@ -381,7 +389,7 @@
       },
       "nameTokens": [],
       "reviewsSource": "segment-enriched",
-      "heroHeadlineSource": "name-personality",
+      "heroHeadlineSource": "existing-project",
       "subheadlineSource": "enriched-specific",
       "aboutSource": "businessMode-template",
       "iaEnriched": false,
@@ -389,11 +397,12 @@
     }
   },
   "qualityGuard": {
-    "rewrites": 1,
+    "rewrites": 3,
     "guarded": [
-      "about:fallback-narrative"
+      "about:fallback-narrative",
+      "services:2-rewrites"
     ],
-    "antiGenericTriggered": false,
+    "antiGenericTriggered": true,
     "specificityInjected": false,
     "narrativeFlow": {
       "heroAngle": "promise",
@@ -534,6 +543,97 @@
         "inferred": 8,
         "total": 17
       }
+    }
+  },
+  "preservation": {
+    "snapshotUsed": true,
+    "snapshotVersion": 1,
+    "snapshotSource": "structured-site-snapshot",
+    "leadDataQuality": "medium",
+    "sourceScores": {
+      "officialSite": 0,
+      "instagram": 0,
+      "googleMaps": 0,
+      "existingProjectAssets": 0.7999999999999999,
+      "existingProjectContent": 1,
+      "leadRaw": 0.39999999999999997,
+      "synthetic": 0.15
+    },
+    "sectionQuality": {
+      "hero": 0.5000000000000001,
+      "services": 0.5,
+      "about": 0.7,
+      "faq": 0.55,
+      "cta": 0.75,
+      "gallery": 0.35
+    },
+    "genericityScores": {
+      "hero": 0,
+      "services": 0,
+      "about": 0,
+      "faq": 0.21176470588235294,
+      "cta": 0.29411764705882354
+    },
+    "visualQuality": {
+      "hero": 0.6,
+      "gallery": 0.44999999999999996,
+      "branding": 0.9500000000000001,
+      "overall": 0.6775
+    },
+    "actionBySection": {
+      "hero": "upgrade",
+      "services": "upgrade",
+      "about": "upgrade",
+      "faq": "polish",
+      "gallery": "upgrade",
+      "cta": "upgrade"
+    },
+    "reasonBySection": {
+      "hero": "high-genericity + strong-source + medium-quality",
+      "services": "high-genericity + strong-source + medium-quality",
+      "about": "high-genericity + strong-source + medium-quality",
+      "faq": "medium-quality + low-genericity",
+      "gallery": "high-genericity + strong-source + weak-quality",
+      "cta": "high-quality + low-genericity + strong-source + cinematic-refresh",
+      "_brandingProtected": "visual-quality-high"
+    },
+    "preservedSections": [],
+    "polishedSections": [
+      "faq"
+    ],
+    "upgradedSections": [
+      "hero",
+      "services",
+      "about",
+      "gallery",
+      "cta"
+    ],
+    "regeneratedSections": [],
+    "identity": {
+      "name": "Osaka Restaurante | Centro Comercial de Alphaville (CCA)",
+      "tone": "professional",
+      "positioning": [
+        "standard"
+      ]
+    },
+    "visualReuse": {
+      "paletteReused": true,
+      "logoReused": true,
+      "imagesReused": false,
+      "galleryReused": true
+    },
+    "existingProjectReuse": {
+      "usedTextBlocks": 6,
+      "usedImages": 6,
+      "usedLogo": true,
+      "usedPalette": true,
+      "usedSectionOrder": true
+    },
+    "motionUpgrade": {
+      "ok": true,
+      "touched": [
+        "app/page.jsx:motion-retrofit"
+      ]
     }
   }
 }
