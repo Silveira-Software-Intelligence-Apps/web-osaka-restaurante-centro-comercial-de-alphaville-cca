@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-21T17:04:37.939Z",
+  "generatedAt": "2026-05-21T17:17:25.396Z",
   "sections": {
     "hero": {
       "headline": "Osaka Restaurante | Centro Comercial de Alphaville (CCA): Ver cardapio e pedir pelo WhatsApp em Barueri",
@@ -32,6 +32,11 @@
           "name": "Rafael S.",
           "icon": "🛵",
           "desc": "Rafael S. preparado com ingredientes frescos e selecionados do dia, tradição em Barueri."
+        },
+        {
+          "name": "Juliana M.",
+          "icon": "⭐",
+          "desc": "Juliana M.: sabor autêntico com receitas próprias que são sucesso entre nossos clientes."
         }
       ],
       "source": "existing-project"

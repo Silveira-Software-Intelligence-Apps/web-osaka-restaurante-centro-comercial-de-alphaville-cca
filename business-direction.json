@@ -2,7 +2,7 @@
   "generationMode": "deep",
   "_generationMeta": {
     "mode": "deep",
-    "timestamp": "2026-05-21T17:04:37.934Z",
+    "timestamp": "2026-05-21T17:17:25.393Z",
     "leadDataQuality": "medium",
     "syntheticEnrichmentUsed": false,
     "aiUsed": false,
@@ -257,7 +257,7 @@
       "faq:segment-pool",
       "hero:real(existing-project)",
       "services:real(existing-project)",
-      "quality-guard:3-rewrites"
+      "quality-guard:4-rewrites"
     ],
     "palette": {
       "mode": "warm-appetite",
@@ -397,10 +397,10 @@
     }
   },
   "qualityGuard": {
-    "rewrites": 3,
+    "rewrites": 4,
     "guarded": [
       "about:fallback-narrative",
-      "services:2-rewrites"
+      "services:3-rewrites"
     ],
     "antiGenericTriggered": true,
     "specificityInjected": false,
@@ -561,7 +561,7 @@
     },
     "sectionQuality": {
       "hero": 0.5000000000000001,
-      "services": 0.5,
+      "services": 0.65,
       "about": 0.7,
       "faq": 0.55,
       "cta": 0.75,
@@ -623,7 +623,7 @@
       "galleryReused": true
     },
     "existingProjectReuse": {
-      "usedTextBlocks": 6,
+      "usedTextBlocks": 7,
       "usedImages": 6,
       "usedLogo": true,
       "usedPalette": true,
