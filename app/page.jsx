@@ -139,6 +139,11 @@ export default function Home() {
           <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#f5ede4', marginBottom: '8px' }}>Juliana M.</h3>
           <p style={{ fontSize: '0.875rem', color: '#b09880', lineHeight: 1.7 }}>Juliana M.: sabor autêntico com receitas próprias que são sucesso entre nossos clientes.</p>
         </div>
+        <div className="card reveal motion-reveal reveal-delay-3 motion-reveal">
+          <div className="card-icon">📅</div>
+          <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#f5ede4', marginBottom: '8px' }}>Juliana M.</h3>
+          <p style={{ fontSize: '0.875rem', color: '#b09880', lineHeight: 1.7 }}>Experimente nosso juliana m. — nota 4.6★ no Google. Peça e comprove.</p>
+        </div>
           </div>
           <div style={{ textAlign: 'center', marginTop: '48px' }}>
             <a href="https://wa.me/55551146881244?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" className="btn-wa">Falar sobre um serviço →</a>
