@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-21T16:52:40.934Z",
+  "sections": {
+    "hero": {
+      "headline": "Osaka Restaurante | Centro Comercial de Alphaville (CCA): Ver cardapio e pedir pelo WhatsApp em Barueri",
+      "subheadline": "sushi em Barueri com atendimento direto, prova local e caminho rapido para contato. Use a reputacao de 4.6/5 no Google com 4581 avaliacoes como prova no topo da pagina.",
+      "ctaPrimary": "Fazer Pedido",
+      "ctaSecondary": "Ver Cardápio",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80&auto=format&fit=crop",
+      "imageSource": "segment-fallback",
+      "source": "name-personality"
+    },
+    "services": {
+      "items": [
+        {
+          "name": "Restaurante japonês",
+          "icon": "🍽️",
+          "desc": "Restaurante japonês com atendimento direto da Osaka Restaurante | Centro Comercial de Alphaville (CCA). em Barueri"
+        },
+        {
+          "name": "sushi",
+          "icon": "🌙",
+          "desc": "sushi pensado para quem procura sushi em Barueri."
+        }
+      ],
+      "source": "segment-template"
+    },
+    "about": {
+      "text": "Aqui na Osaka Restaurante | Centro Comercial de Alphaville (CCA), Barueri, cada atendimento é pensado para você. sushi com atenção ao detalhe. Nota 4.6★ no Google — o resultado é o nosso melhor cartão de visita.",
+      "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=900&q=80&auto=format&fit=crop",
+      "imageSource": "segment-fallback",
+      "source": "businessMode-template"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Tem opções vegetarianas/veganas?",
+          "a": "Temos opções para diversas preferências alimentares. Consulte nosso cardápio atualizado."
+        },
+        {
+          "q": "Qual o horário de funcionamento?",
+          "a": "Nosso horário varia conforme o dia. Confirme pelo WhatsApp para garantir seu atendimento."
+        },
+        {
+          "q": "Vocês fazem buffet para eventos?",
+          "a": "Sim! Montamos buffet personalizado para festas e eventos. Solicite um orçamento."
+        },
+        {
+          "q": "Aceitam cartão?",
+          "a": "Aceitamos cartão de crédito/débito, PIX, dinheiro e vale-refeição."
+        },
+        {
+          "q": "Como peço pelo WhatsApp?",
+          "a": "Envie mensagem com seu pedido e endereço. Confirmamos o valor e prazo de entrega."
+        }
+      ],
+      "source": "segment-pool"
+    },
+    "gallery": {
+      "images": [
+        "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&q=80&auto=format&fit=crop"
+      ],
+      "realCount": 0,
+      "source": "segment-fallback"
+    },
+    "reviews": {
+      "items": [
+        {
+          "name": "Juliana M.",
+          "text": "Comida maravilhosa na Osaka Restaurante | Centro Comercial de Alphaville (CCA)! Sabor autêntico, porção generosa e atendimento acolhedor. Melhor em Barueri.",
+          "rating": 5
+        },
+        {
+          "name": "Rafael S.",
+          "text": "Fomos em família e todos adoraram. Ambiente agradável, comida fresca e preço justo. Voltaremos com certeza.",
+          "rating": 5
+        },
+        {
+          "name": "Carla O.",
+          "text": "4.6★ merecidas! Pedi pelo delivery e chegou quentinho e bem embalado. Qualidade nota 10.",
+          "rating": 5
+        }
+      ],
+      "source": "segment-enriched"
+    },
+    "cta": {
+      "primaryText": "Fazer Pedido",
+      "secondaryText": "Ver Cardápio",
+      "phone": "551146881244",
+      "source": "site-brief(fallback)"
+    },
+    "branding": {
+      "logo": "https://static.parastorage.com/client/pfavico.ico",
+      "logoSource": "website-apple-touch-icon",
+      "palette": {
+        "bg": "#1a1008",
+        "primary": "#e85d2a",
+        "accent": "#d44e20",
+        "text": "#f5ede4"
+      },
+      "paletteMode": "warm-appetite",
+      "tone": "professional",
+      "source": "website-apple-touch-icon"
+    }
+  },
+  "sectionOrder": [
+    "hero",
+    "galeria",
+    "servicos",
+    "avaliacoes",
+    "contato",
+    "stats",
+    "sobre",
+    "faq",
+    "cta-final"
+  ],
+  "visualProfile": {
+    "palette": {
+      "bg": "#1a1008",
+      "primary": "#e85d2a",
+      "accent": "#d44e20",
+      "text": "#f5ede4"
+    },
+    "paletteMode": "warm-appetite",
+    "segment": "alimentacao",
+    "mood": "neutral-clean",
+    "layoutVariant": "hero-centered",
+    "accentHue": 29
+  },
+  "provenance": {
+    "generationMode": "deep",
+    "aiUsed": false,
+    "aiSuccesses": 0,
+    "aiCalls": 3,
+    "syntheticUsed": false,
+    "leadDataQuality": "medium"
+  }
+}

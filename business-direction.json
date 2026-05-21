@@ -1,0 +1,539 @@
+{
+  "generationMode": "deep",
+  "_generationMeta": {
+    "mode": "deep",
+    "timestamp": "2026-05-21T16:52:40.932Z",
+    "leadDataQuality": "medium",
+    "syntheticEnrichmentUsed": false,
+    "aiUsed": false,
+    "aiFailed": true,
+    "aiCalls": 3,
+    "aiSuccesses": 0,
+    "hero": {
+      "headlineSource": "name-personality",
+      "subheadlineSource": "enriched-specific",
+      "aiAttempted": true,
+      "aiFallback": true
+    },
+    "services": {
+      "source": "segment-template",
+      "realCategories": 0,
+      "aiEnriched": false
+    },
+    "reviews": {
+      "source": "segment-enriched",
+      "realCount": 0
+    },
+    "cta": {
+      "source": "site-brief(fallback)",
+      "aiAttempted": true,
+      "aiFallback": true
+    },
+    "about": {
+      "source": "businessMode-template",
+      "aiAttempted": true,
+      "aiFallback": true
+    },
+    "faq": {
+      "source": "segment-pool"
+    },
+    "visualDirection": {
+      "source": "hash-variety",
+      "accentHue": 29,
+      "moodShift": "neutral-clean",
+      "layoutVariant": "hero-centered"
+    },
+    "imagery": {
+      "heroSource": "segment-fallback",
+      "aboutSource": "segment-fallback",
+      "galleryRealCount": 0,
+      "logoSource": "website-apple-touch-icon"
+    },
+    "diagnosticoIA": {
+      "available": false,
+      "fieldsUsed": []
+    },
+    "fallbacks": [
+      "hero:ai-failed→template",
+      "cta:ai-failed→direction",
+      "about:ai-failed→template"
+    ]
+  },
+  "signals": {
+    "businessType": "local-retail",
+    "segment": "alimentacao",
+    "subsegments": [
+      "cardapio",
+      "delivery",
+      "ambiente"
+    ],
+    "salesModel": "appetite-impulse",
+    "customerIntent": "explorar-escolher",
+    "decisionSpeed": 0.7,
+    "trustNeed": 0.30000000000000004,
+    "visualWeight": 0.85,
+    "bookingNeed": false,
+    "catalogNeed": true,
+    "locationNeed": true,
+    "socialProofNeed": 0.85,
+    "urgencyProfile": 0.5,
+    "digitalMaturity": "baixa-media",
+    "toneHints": [
+      "apetitoso",
+      "acolhedor",
+      "caseiro"
+    ],
+    "evidence": [
+      {
+        "type": "confirmed",
+        "source": "segment-match",
+        "detail": "Nicho \"sushi\" matched → alimentacao"
+      },
+      {
+        "type": "confirmed",
+        "source": "google-rating",
+        "detail": "4.6★ (4581 avaliações)"
+      },
+      {
+        "type": "confirmed",
+        "source": "lead-data",
+        "detail": "Cidade: Barueri"
+      }
+    ],
+    "unknowns": [
+      "ia-diagnosis-missing"
+    ],
+    "lifestyleSignal": 0.5,
+    "luxurySignal": 0.3,
+    "urgencySignal": 0.5
+  },
+  "profile": {
+    "primarySegment": "alimentacao",
+    "secondarySegments": [
+      "cardapio",
+      "delivery",
+      "ambiente"
+    ],
+    "businessMode": "local-retail",
+    "audience": [
+      "familias",
+      "casais",
+      "delivery-seekers"
+    ],
+    "customerMindset": [
+      "quero-ver-opcoes",
+      "comparando"
+    ],
+    "purchaseContext": [
+      "desejo",
+      "impulso",
+      "apetite"
+    ],
+    "decisionDynamics": {
+      "speed": "media",
+      "frictionTolerance": "media",
+      "trustBarrier": "baixo"
+    },
+    "commercialNeeds": {
+      "booking": false,
+      "whatsapp": true,
+      "catalog": true,
+      "location": true,
+      "reviews": true,
+      "proof": false
+    },
+    "brandVibe": [
+      "apetitoso",
+      "acolhedor"
+    ],
+    "visualDirectionHints": [
+      "fotos-comida",
+      "cores-quentes",
+      "apetite-visual"
+    ],
+    "copyDirectionHints": [],
+    "ctaDirectionHints": [
+      "ver-produtos",
+      "explorar"
+    ],
+    "antiPatterns": [
+      "paleta-fria-corporativa",
+      "copy-tecnica",
+      "visual-clinico"
+    ]
+  },
+  "direction": {
+    "theme": {
+      "paletteMode": "warm-appetite",
+      "contrastLevel": "high",
+      "density": "spacious",
+      "visualTemperature": "warm",
+      "preferredMood": [
+        "apetitoso",
+        "acolhedor"
+      ]
+    },
+    "hero": {
+      "style": "fullscreen-immersive",
+      "emphasis": "visual",
+      "headlineMode": "discovery",
+      "subheadlineMode": "value-proposition",
+      "backgroundDirection": "photo-atmospheric",
+      "ctaPriority": "catalog"
+    },
+    "imagery": {
+      "focus": [
+        "pratos",
+        "ingredientes",
+        "ambiente-restaurante",
+        "close-up-comida"
+      ],
+      "avoid": [
+        "corporativo",
+        "clinico",
+        "tecnologico"
+      ],
+      "style": "natural",
+      "realismLevel": "high-preference-real-photos"
+    },
+    "sections": {
+      "priorityOrder": [
+        "hero",
+        "galeria",
+        "servicos",
+        "avaliacoes",
+        "contato",
+        "stats",
+        "sobre",
+        "faq",
+        "cta-final"
+      ],
+      "include": {
+        "hero": true,
+        "galeria": true,
+        "servicos": true,
+        "avaliacoes": true,
+        "contato": true,
+        "stats": true,
+        "sobre": true,
+        "faq": true,
+        "cta-final": true
+      },
+      "exclude": {}
+    },
+    "proof": {
+      "emphasis": "moderate",
+      "type": "customer-stories"
+    },
+    "conversion": {
+      "primaryCta": "Fazer Pedido",
+      "secondaryCta": "Ver Cardápio",
+      "contactStrategy": "order-first",
+      "formMode": "simple"
+    },
+    "copy": {
+      "tone": "apetitoso-acolhedor",
+      "sentenceStyle": "balanced",
+      "persuasionMode": "benefit-aspiration",
+      "avoid": [
+        "jargao-tecnico"
+      ]
+    }
+  },
+  "applied": {
+    "overrides": [
+      "palette:warm-appetite",
+      "imagery:alimentacao",
+      "assets:real(logo)",
+      "ingestion:0-sources()",
+      "content:alimentacao",
+      "site-brief:heroHeadline,subheadline,primaryCta,secondaryCta,services",
+      "visual:variety(neutral-clean)",
+      "hero:ai-fallback→template",
+      "cta:Fazer Pedido",
+      "enriched:lead-specifics",
+      "about:ai-fallback→template",
+      "faq:segment-pool",
+      "quality-guard:1-rewrites"
+    ],
+    "palette": {
+      "mode": "warm-appetite",
+      "bg": "#1a1008",
+      "primary": "#e85d2a",
+      "accent": "#d44e20",
+      "text": "#f5ede4"
+    },
+    "imagery": {
+      "segment": "alimentacao",
+      "heroImg": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80&auto=fo...",
+      "aboutImg": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=900&q=80&auto=format...",
+      "heroSource": "segment-fallback",
+      "aboutSource": "segment-fallback",
+      "gallerySource": "segment-fallback",
+      "galleryRealCount": 0,
+      "logoSource": "website-apple-touch-icon",
+      "logoUrl": "https://static.parastorage.com/client/pfavico.ico"
+    },
+    "assets": {
+      "resolved": true,
+      "applied": true,
+      "changes": [
+        {
+          "field": "logo",
+          "source": "website-apple-touch-icon",
+          "real": true
+        }
+      ],
+      "meta": {
+        "websiteFetched": true,
+        "websiteError": null,
+        "googleMapsImages": 0,
+        "instagramAvailable": false,
+        "websiteUrl": "https://www.site.osakarestaurante.com.br/"
+      }
+    },
+    "siteBrief": {
+      "source": "deterministic",
+      "readiness": {
+        "score": 82,
+        "tier": "hot",
+        "reasons": [
+          "telefone",
+          "nicho",
+          "local",
+          "prova social",
+          "volume de reviews",
+          "presenca digital"
+        ],
+        "missing": [
+          "fotos reais",
+          "descricao do negocio",
+          "instagram"
+        ]
+      },
+      "hook": "Osaka Restaurante | Centro Comercial de Alphaville (CCA): Ver cardapio e pedir pelo WhatsApp em Barueri",
+      "primaryCta": "Fazer Pedido"
+    },
+    "aiAssetPlan": {
+      "status": "prompt-ready",
+      "provider": "prompt-only",
+      "generationEnabled": false,
+      "realImageCount": 0,
+      "heroPrompt": "Cinematic landing-page hero image for \"Osaka Restaurante | Centro Comercial de Alphaville (CCA)\", a sushi in Barueri, Brazil. Commercial angle: Osaka Restaurante | Centro Comercial",
+      "logoPrompt": "Create a professional logo for \"Osaka Restaurante | Centro Comercial de Alphaville (CCA)\", a sushi in Barueri, Brazil. Style: distinct local brand mark, simple symbol, memorable wo"
+    },
+    "wooCinematicCommerce": {
+      "enabled": false
+    },
+    "ingestion": {
+      "leadDataQuality": "low",
+      "officialSources": {
+        "site": false,
+        "instagram": false,
+        "maps": false,
+        "existingProjectAssets": false
+      },
+      "heroSource": "template",
+      "heroImageSource": "segment-fallback",
+      "servicesSource": "template",
+      "aboutSource": "template",
+      "faqSource": "template",
+      "ctaSource": "template",
+      "logoSource": "generated-initial",
+      "realFieldsUsed": [],
+      "realFieldCount": 0,
+      "sourceCount": 0,
+      "sources": [],
+      "websiteError": "fetch-failed"
+    },
+    "cta": {
+      "primary": "Fazer Pedido",
+      "secondary": "Ver Cardápio"
+    },
+    "sectionOrder": [
+      "hero",
+      "galeria",
+      "servicos",
+      "avaliacoes",
+      "contato",
+      "stats",
+      "sobre",
+      "faq",
+      "cta-final"
+    ],
+    "sectionLabelsSource": "alimentacao",
+    "contentSource": "alimentacao",
+    "tagline": {
+      "source": "dynamic-builder",
+      "value": "Produtos selecionados com qualidade garantida. Visite a Osaka Restaurante | Centro Comercial de Alph"
+    },
+    "iaInfluence": false,
+    "iaFields": null,
+    "enrichment": {
+      "hasLeadData": true,
+      "leadFlags": {
+        "hasAvaliacao": true,
+        "hasDescricao": false,
+        "hasHorarios": false,
+        "hasEndereco": true,
+        "hasInstagram": false,
+        "hasWebsite": true
+      },
+      "nameTokens": [],
+      "reviewsSource": "segment-enriched",
+      "heroHeadlineSource": "name-personality",
+      "subheadlineSource": "enriched-specific",
+      "aboutSource": "businessMode-template",
+      "iaEnriched": false,
+      "siteContext": "evolution"
+    }
+  },
+  "qualityGuard": {
+    "rewrites": 1,
+    "guarded": [
+      "about:fallback-narrative"
+    ],
+    "antiGenericTriggered": false,
+    "specificityInjected": false,
+    "narrativeFlow": {
+      "heroAngle": "promise",
+      "servicesAngle": "list",
+      "aboutAngle": "personal",
+      "ctaAngle": "explore"
+    },
+    "specificityContext": {
+      "concreteElements": [
+        "avaliacao"
+      ],
+      "differentiators": [
+        "avaliação 4.6★",
+        "em Barueri"
+      ],
+      "hasRealContent": false
+    }
+  },
+  "audit": {
+    "businessPersona": {
+      "empresa": "Osaka Restaurante | Centro Comercial de Alphaville (CCA)",
+      "segment": "alimentacao",
+      "businessMode": "local-retail",
+      "traits": [
+        "profissional/acessível"
+      ],
+      "tone": "apetitoso-acolhedor",
+      "brandVibe": [
+        "apetitoso",
+        "acolhedor"
+      ],
+      "audience": [
+        "familias",
+        "casais",
+        "delivery-seekers"
+      ],
+      "customerMindset": [
+        "quero-ver-opcoes",
+        "comparando"
+      ],
+      "salesModel": "appetite-impulse",
+      "visualPersonality": "warm-appetite",
+      "heroStyle": "fullscreen-immersive",
+      "summary": "Osaka Restaurante | Centro Comercial de Alphaville (CCA) é um negócio tipo \"local-retail\" no segmento \"alimentacao\". Persona: profissional/acessível. Tom: apetitoso-acolhedor. Público: familias, casais."
+    },
+    "specificityMarkers": {
+      "heroHeadline": "business-specific",
+      "heroSubheadline": "business-specific",
+      "ctaPrimary": "Fazer Pedido",
+      "ctaPrimarySource": "signal:catalog",
+      "ctaSecondary": "Ver Cardápio",
+      "reviews": "segment+business-specific",
+      "aboutParagraph": "businessMode:local-retail",
+      "services": "segment:alimentacao",
+      "faq": "segment:alimentacao+location-faq",
+      "palette": "direction:warm-appetite",
+      "imagery": "segment:alimentacao",
+      "stats": "lead-data-enriched",
+      "sectionLabels": "segment:alimentacao",
+      "sectionOrder": "direction-weighted",
+      "tagline": "dynamic-builder",
+      "_score": "15/15",
+      "_pct": "100%"
+    },
+    "heroRationale": {
+      "headlineMode": "discovery",
+      "headlineSource": "name-personality-tokens",
+      "headlineValue": "Osaka Restaurante | Centro Comercial de Alphaville (CCA): Ver cardapio e pedir pelo WhatsApp em Barueri",
+      "subheadlineSource": "enrichWithLeadSpecifics",
+      "emphasis": "visual",
+      "style": "fullscreen-immersive",
+      "why": "visualWeight > 0.8 → hero fullscreen para máximo impacto visual. headline mode discovery: negócio com catálogo/produtos. salesAngle fornece headline por segmento."
+    },
+    "ctaRationale": {
+      "primaryCta": "Fazer Pedido",
+      "secondaryCta": "Ver Cardápio",
+      "contactStrategy": "order-first",
+      "why": "catalogNeed + alimentação → CTA de pedido."
+    },
+    "proofRationale": {
+      "emphasis": "moderate",
+      "type": "customer-stories",
+      "reviewsSource": "segment-templates-with-business-data",
+      "hasRealRating": true,
+      "ratingUsed": 4.6,
+      "why": "socialProofNeed moderado → prova social presente mas não dominante. avaliação real (4.6★) injeta credibilidade nos stats e reviews. tipo customer-stories: depoimentos de clientes como prova principal."
+    },
+    "copyRationale": {
+      "tone": "apetitoso-acolhedor",
+      "sentenceStyle": "balanced",
+      "persuasionMode": "benefit-aspiration",
+      "avoid": [
+        "jargao-tecnico"
+      ],
+      "aboutSource": "businessMode:local-retail",
+      "why": "segmento alimentação → tom apetitoso e acolhedor. persuasão por benefício/aspiração. evitando: jargao-tecnico."
+    },
+    "why_this_business_is_not_generic": {
+      "reasons": [
+        "Hero headline personalizado pelos tokens de nome: \"Osaka Restaurante | Centro Comercial de Alphaville (CCA): Ver cardapio e pedir pelo WhatsApp em Barueri\"",
+        "Subtítulo construído com dados reais do lead (avaliação, cidade, modo de negócio)",
+        "Reviews mencionam \"Osaka Restaurante | Centro Comercial de Alphaville (CCA)\" por nome, não são genéricos",
+        "Stats usam avaliação real: 4.6★ (4581 avaliações)",
+        "FAQ inclui localização real: Calç. das Orquídeas, 209 - Alphaville Comercial, Barueri - SP, 06453-001, Brasil, Alphaville Comercial, Barueri"
+      ],
+      "specificFieldCount": 15,
+      "totalFields": 15,
+      "verdict": "altamente específico"
+    },
+    "fieldProvenance": {
+      "fromLead": [
+        "empresa",
+        "nicho",
+        "cidade",
+        "telefone",
+        "website",
+        "avaliacao",
+        "numero_avaliacoes",
+        "endereco",
+        "bairro"
+      ],
+      "fromCRM": [],
+      "fromIA": [],
+      "inferred": [
+        "segment:alimentacao",
+        "businessMode:local-retail",
+        "paletteMode:warm-appetite",
+        "heroStyle:fullscreen-immersive",
+        "copyTone:apetitoso-acolhedor",
+        "salesModel:appetite-impulse",
+        "contactStrategy:order-first",
+        "sectionOrder:weighted-by-signals"
+      ],
+      "summary": {
+        "lead": 9,
+        "crm": 0,
+        "ia": 0,
+        "inferred": 8,
+        "total": 17
+      }
+    }
+  }
+}

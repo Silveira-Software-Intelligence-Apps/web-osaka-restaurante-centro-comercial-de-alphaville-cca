@@ -1,0 +1,160 @@
+{
+  "version": "site-brief-v1",
+  "source": "deterministic",
+  "generatedAt": "2026-05-21T16:51:18.381Z",
+  "business": {
+    "name": "Osaka Restaurante | Centro Comercial de Alphaville (CCA)",
+    "niche": "sushi",
+    "city": "Barueri",
+    "phone": "551146881244",
+    "website": "https://www.site.osakarestaurante.com.br/",
+    "instagram": ""
+  },
+  "research": {
+    "source": "crm",
+    "placeId": "",
+    "googleMapsUrl": "",
+    "categories": [
+      "Restaurante japonês",
+      "sushi"
+    ],
+    "location": {
+      "cidade": "Barueri",
+      "estado": "São Paulo",
+      "bairro": "Alphaville Comercial",
+      "endereco": "Calç. das Orquídeas, 209 - Alphaville Comercial, Barueri - SP, 06453-001, Brasil",
+      "latitude": null,
+      "longitude": null
+    },
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "website": "https://www.site.osakarestaurante.com.br/"
+    },
+    "google": {
+      "rating": 4.6,
+      "reviews": 4581,
+      "isAd": false,
+      "openNow": null,
+      "hours": [],
+      "price": "",
+      "photos": 0,
+      "comments": 0
+    },
+    "semantic": {
+      "segment": "alimentacao",
+      "businessMode": "local-retail",
+      "salesModel": "appetite-impulse",
+      "customerIntent": "explorar-escolher",
+      "paletteMode": "warm-appetite",
+      "conversionGoal": ""
+    }
+  },
+  "market": {
+    "segment": "alimentacao",
+    "customerIntent": "explorar-escolher",
+    "buyerPain": "o cliente decide rapido e precisa sentir vontade antes de chamar",
+    "desiredOutcome": "mais pedidos, reservas e conversas pelo WhatsApp",
+    "localAngle": "Busca local em Barueri",
+    "seoKeywords": [
+      "sushi Barueri",
+      "Osaka Restaurante | Centro Comercial de Alphaville (CCA) Barueri",
+      "Restaurante japonês Barueri"
+    ]
+  },
+  "proof": [
+    "4.6/5 no Google com 4581 avaliacoes",
+    "Atendimento em Barueri",
+    "Presenca no bairro Alphaville Comercial",
+    "Site atual encontrado para evolucao"
+  ],
+  "copy": {
+    "tone": "apetitoso, acolhedor, caseiro",
+    "primaryHook": "Osaka Restaurante | Centro Comercial de Alphaville (CCA): Ver cardapio e pedir pelo WhatsApp em Barueri",
+    "heroHeadline": "Osaka Restaurante | Centro Comercial de Alphaville (CCA): Ver cardapio e pedir pelo WhatsApp em Barueri",
+    "subheadline": "sushi em Barueri com atendimento direto, prova local e caminho rapido para contato. Use a reputacao de 4.6/5 no Google com 4581 avaliacoes como prova no topo da pagina.",
+    "offer": "Ver cardapio e pedir pelo WhatsApp",
+    "primaryCta": "Fazer Pedido",
+    "secondaryCta": "Ver Cardápio",
+    "objectionHandlers": [
+      "Mostrar atendimento pelo WhatsApp antes de pedir compromisso.",
+      "Usar fotos reais para reduzir desconfianca.",
+      "Colocar prova social perto dos CTAs."
+    ],
+    "services": [
+      {
+        "name": "Restaurante japonês",
+        "benefit": "Restaurante japonês com atendimento direto da Osaka Restaurante | Centro Comercial de Alphaville (CCA)."
+      },
+      {
+        "name": "sushi",
+        "benefit": "sushi pensado para quem procura sushi em Barueri."
+      }
+    ]
+  },
+  "conversion": {
+    "goal": "evoluir site existente e gerar mais contatos",
+    "offer": "Ver cardapio e pedir pelo WhatsApp",
+    "frictionReducers": [
+      "WhatsApp sempre visivel",
+      "mapa/localizacao",
+      "prova social",
+      "perguntas frequentes"
+    ]
+  },
+  "visualDirection": {
+    "style": "fullscreen-immersive",
+    "palette": "warm-appetite",
+    "motion": "GSAP ScrollTrigger, reveal cinematografico, parallax leve e performance first",
+    "imageStrategy": "gerar hero/logo com IA usando prompts do plano de assets"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "goal": "Explicar valor em 5 segundos e abrir WhatsApp.",
+      "priority": 1
+    },
+    {
+      "id": "proof",
+      "goal": "Mostrar rating, cidade, comentarios e fotos reais.",
+      "priority": 2
+    },
+    {
+      "id": "services",
+      "goal": "Transformar categorias do Google em beneficios compraveis.",
+      "priority": 3
+    },
+    {
+      "id": "about",
+      "goal": "Dar contexto humano e local sem texto generico.",
+      "priority": 4
+    },
+    {
+      "id": "faq",
+      "goal": "Responder objecoes de preco, horario, localizacao e atendimento.",
+      "priority": 5
+    },
+    {
+      "id": "cta",
+      "goal": "Repetir acao principal quando o visitante ja entendeu o valor.",
+      "priority": 6
+    }
+  ],
+  "readiness": {
+    "score": 82,
+    "tier": "hot",
+    "reasons": [
+      "telefone",
+      "nicho",
+      "local",
+      "prova social",
+      "volume de reviews",
+      "presenca digital"
+    ],
+    "missing": [
+      "fotos reais",
+      "descricao do negocio",
+      "instagram"
+    ]
+  }
+}

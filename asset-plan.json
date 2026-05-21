@@ -1,0 +1,52 @@
+{
+  "version": "site-asset-plan-v1",
+  "status": "prompt-ready",
+  "provider": "prompt-only",
+  "model": "",
+  "generationEnabled": false,
+  "realImageCount": 0,
+  "hero": {
+    "source": "ai-prompt",
+    "url": "",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic landing-page hero image for \"Osaka Restaurante | Centro Comercial de Alphaville (CCA)\", a sushi in Barueri, Brazil. Commercial angle: Osaka Restaurante | Centro Comercial de Alphaville (CCA): Ver cardapio e pedir pelo WhatsApp em Barueri. Offer context: Ver cardapio e pedir pelo WhatsApp. Trust signals to inspire the scene: 4.6/5 no Google com 4581 avaliacoes, Atendimento em Barueri, Presenca no bairro Alphaville Comercial, Site atual encontrado para evolucao. Mood: warm, appetite-driven, cinematic closeups, premium local food photography. Details: natural light, table textures, handcrafted details. Wide 16:9 composition, room for headline overlay, premium editorial lighting, realistic photo, high detail. Avoid: generic stock food, plastic-looking ingredients, empty restaurant."
+  },
+  "about": {
+    "source": "ai-prompt",
+    "url": "",
+    "aspectRatio": "4:3",
+    "prompt": "Authentic about-section image for \"Osaka Restaurante | Centro Comercial de Alphaville (CCA)\", sushi in Barueri, Brazil. Show the real service environment through natural light, table textures, handcrafted details. Human, trustworthy, professional, no text, no watermark, realistic photography."
+  },
+  "logo": {
+    "source": "ai-prompt",
+    "url": "",
+    "aspectRatio": "1:1",
+    "transparentBackground": true,
+    "prompt": "Create a professional logo for \"Osaka Restaurante | Centro Comercial de Alphaville (CCA)\", a sushi in Barueri, Brazil. Style: distinct local brand mark, simple symbol, memorable wordmark. Readable wordmark, original icon, vector-like, transparent background, no mockup. Avoid generic clipart, overused gradients, illegible typography, fake 3D emboss."
+  },
+  "gallery": [
+    {
+      "source": "ai-prompt",
+      "url": "",
+      "aspectRatio": "4:5",
+      "prompt": "Supporting gallery image for \"Osaka Restaurante | Centro Comercial de Alphaville (CCA)\", sushi in Barueri, Brazil. Mood: warm, appetite-driven, cinematic closeups, premium local food photography. Close-up detail, useful for a premium website section, realistic photo, no text. Variation 1."
+    },
+    {
+      "source": "ai-prompt",
+      "url": "",
+      "aspectRatio": "1:1",
+      "prompt": "Supporting gallery image for \"Osaka Restaurante | Centro Comercial de Alphaville (CCA)\", sushi in Barueri, Brazil. Mood: warm, appetite-driven, cinematic closeups, premium local food photography. Close-up detail, useful for a premium website section, realistic photo, no text. Variation 2."
+    },
+    {
+      "source": "ai-prompt",
+      "url": "",
+      "aspectRatio": "1:1",
+      "prompt": "Supporting gallery image for \"Osaka Restaurante | Centro Comercial de Alphaville (CCA)\", sushi in Barueri, Brazil. Mood: warm, appetite-driven, cinematic closeups, premium local food photography. Close-up detail, useful for a premium website section, realistic photo, no text. Variation 3."
+    }
+  ],
+  "notes": [
+    "No real images found; AI prompts are ready.",
+    "Image provider disabled; prompts are stored for generation later.",
+    "Logo prompt is intentionally vector-like for later SVG/PNG use."
+  ]
+}
